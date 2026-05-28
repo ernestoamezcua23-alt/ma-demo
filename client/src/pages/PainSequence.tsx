@@ -86,7 +86,7 @@ function Scene4() {
             muted
             className="w-full h-full object-cover"
           >
-            <source src="/demo-videos/NEWHUMANHappy_Laughing_Video_Generation.mp4" type="video/mp4" />
+            <source src="https://d2xsxph8kpxj0f.cloudfront.net/310519663460412194/KkBPjWRan6rfDKBMXRAXi9/NEWHUMANHappy_Laughing_Video_Generation_07d73364.mp4" type="video/mp4" />
           </video>
         </div>
       </div>
@@ -100,7 +100,7 @@ function Scene4() {
             muted
             className="w-full h-full object-cover"
           >
-            <source src="/demo-videos/AIrobothappyinteractingwithuserqueries.mp4" type="video/mp4" />
+            <source src="https://d2xsxph8kpxj0f.cloudfront.net/310519663460412194/KkBPjWRan6rfDKBMXRAXi9/AIrobothappyinteractingwithuserqueries_fc282e7b.mp4" type="video/mp4" />
           </video>
         </div>
 
@@ -234,7 +234,7 @@ function Scene2() {
           onEnded={() => setVideoEnded(true)}
           className="w-full h-full object-cover"
         >
-          <source src="/demo-videos/happyhumanuser1.mp4" type="video/mp4" />
+          <source src="https://d2xsxph8kpxj0f.cloudfront.net/310519663460412194/KkBPjWRan6rfDKBMXRAXi9/happyhumanuser1_796e1016.mp4" type="video/mp4" />
         </video>
       </div>
 
@@ -314,7 +314,7 @@ function Scene1() {
         onEnded={handleVideoEnd}
         className="w-full h-full object-cover"
       >
-        <source src="/demo-videos/AIRobot;learningfromusercontextaquisition.mp4" type="video/mp4" />
+        <source src="https://d2xsxph8kpxj0f.cloudfront.net/310519663460412194/KkBPjWRan6rfDKBMXRAXi9/AIRobot;learningfromusercontextaquisition_20d9b4d4.mp4" type="video/mp4" />
       </video>
 
       {/* Text Overlay - Top with background */}
@@ -364,7 +364,7 @@ function Scene9() {
           muted
           className="w-full h-full object-cover rounded-lg shadow-2xl"
         >
-          <source src="/demo-videos/Angryhumanwithsystemcrash.mp4" type="video/mp4" />
+          <source src="https://d2xsxph8kpxj0f.cloudfront.net/310519663460412194/KkBPjWRan6rfDKBMXRAXi9/Angryhumanwithsystemcrash_4e774278.mp4" type="video/mp4" />
         </video>
       </div>
 
@@ -377,7 +377,7 @@ function Scene9() {
             muted
             className="w-full h-full object-cover rounded-lg shadow-2xl"
           >
-            <source src="/demo-videos/AIrobotfullsystemresetaftercrash.mp4" type="video/mp4" />
+            <source src="https://d2xsxph8kpxj0f.cloudfront.net/310519663460412194/KkBPjWRan6rfDKBMXRAXi9/AIrobotfullsystemresetaftercrash_47db44e4.mp4" type="video/mp4" />
           </video>
         </div>
 
@@ -460,7 +460,7 @@ function Scene7() {
           muted
           className="w-full h-full object-cover rounded-lg shadow-2xl"
         >
-          <source src="/demo-videos/newvideohumanbeginningofcrash.mp4" type="video/mp4" />
+          <source src="https://d2xsxph8kpxj0f.cloudfront.net/310519663460412194/KkBPjWRan6rfDKBMXRAXi9/newvideohumanbeginningofcrash_0b93b3b3.mp4" type="video/mp4" />
         </video>
 
         {/* Text Overlay - Top */}
@@ -523,7 +523,7 @@ function Scene6() {
           muted
           className="w-full h-full object-cover rounded-lg shadow-2xl"
         >
-          <source src="/demo-videos/AIRobotsystemcrash.mp4" type="video/mp4" />
+          <source src="https://d2xsxph8kpxj0f.cloudfront.net/310519663460412194/KkBPjWRan6rfDKBMXRAXi9/AIRobotsystemcrash_43460ce7.mp4" type="video/mp4" />
         </video>
 
         {/* Text Overlay - Top */}
