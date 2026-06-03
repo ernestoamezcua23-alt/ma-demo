@@ -225,9 +225,9 @@ function Scene2() {
   }, []);
 
   return (
-    <div className="w-full h-screen bg-black flex gap-4 p-4 overflow-hidden">
-      {/* Human Video - Left */}
-      <div className="w-1/3 bg-gray-900 rounded-lg overflow-hidden shadow-2xl">
+    <div className="w-full h-screen bg-black flex flex-col gap-4 p-4 overflow-hidden">
+      {/* Human Video - Top */}
+      <div className="h-2/5 bg-gray-900 rounded-lg overflow-hidden shadow-2xl">
         <video
           autoPlay
           muted
@@ -238,7 +238,7 @@ function Scene2() {
         </video>
       </div>
 
-      {/* LLM Chat - Right */}
+      {/* LLM Chat - Bottom */}
       <div className="flex-1 bg-black border border-gray-700 rounded-lg flex flex-col overflow-hidden">
         {/* Chat Container */}
         <div className="flex-1 bg-gray-950 overflow-y-auto p-4 space-y-3 min-h-0">
