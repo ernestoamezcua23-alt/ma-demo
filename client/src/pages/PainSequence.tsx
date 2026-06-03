@@ -78,9 +78,9 @@ function Scene4() {
 
   return (
     <div className="w-full h-screen bg-black flex flex-col overflow-hidden">
-      {/* HUMAN VIDEO - Top, full width (30% smaller) */}
-      <div className="h-2/5 bg-black p-4 flex items-center justify-center">
-        <div className="w-full h-full bg-gray-900 rounded-lg overflow-hidden shadow-2xl" style={{ transform: 'scale(0.70)' }}>
+      {/* HUMAN VIDEO - Top, full width (35% of screen) */}
+      <div className="h-[35%] bg-black p-4 flex items-center justify-center">
+        <div className="w-full h-full bg-gray-900 rounded-lg overflow-hidden shadow-2xl">
           <video
             autoPlay
             muted
@@ -92,7 +92,7 @@ function Scene4() {
       </div>
 
       {/* BOTTOM SECTION - Robot (left) + LLM Chat (right) */}
-      <div className="h-3/5 flex gap-4 p-4 bg-black overflow-hidden">
+      <div className="flex-1 flex gap-4 p-4 bg-black overflow-hidden">
         {/* ROBOT VIDEO - Bottom left */}
         <div className="w-1/3 bg-gray-900 rounded-lg overflow-hidden shadow-2xl">
           <video
